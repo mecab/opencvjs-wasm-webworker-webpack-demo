@@ -1,0 +1,51 @@
+@import 'bourbon';
+
+body {
+    font-family: $font-stack-helvetica;
+}
+
+.container {
+    display: flex;
+}
+
+.videoWrapper {
+    width: 50%;
+    position: relative;
+
+    .fps {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        width: 4em;
+        padding: 0.3em;
+
+        text-align:center;
+        background-color: black;
+        color: white;
+    }
+}
+
+.faceRect {
+    position: absolute;
+    border: 3px solid red;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.log {
+    width: 50%;
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+        padding-left: 0.5em;
+        color: #566573;
+    }
+    p:nth-child(odd) {
+        background-color: #EAFAF1;
+    }
+    p:nth-child(even) {
+        background-color: #FEF9E7;
+    }
+}
