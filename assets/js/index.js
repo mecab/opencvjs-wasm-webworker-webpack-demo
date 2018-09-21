@@ -1,6 +1,6 @@
 require('../css/index.scss');
 
-const Worker = require('./detectface.worker.js');
+const Worker = require('./detectFace.worker.js');
 
 // Scaled (reduced) image resolution for processing.
 // Lesser is faster.
