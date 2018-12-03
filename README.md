@@ -44,3 +44,7 @@ Where `opencv.js`, `opencv_js.js` and `opencv_js.wasm` come from
 These compiled js and wasm files are built from [OpenCV v3.4.2](https://docs.opencv.org/3.4.2/index.html) source through [OpenCV.js offical build instruction](https://docs.opencv.org/3.4.2/d4/da1/tutorial_js_setup.html).
 
 I pushed a [Docker image](https://hub.docker.com/r/mecab/opencv-wasm-builder/) to generate them so that you can easily build them by yourself. [Dockerfile](https://github.com/mecab/docker-opencv-wasm-builder) is also available.
+
+LICENSE
+-------
+This is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

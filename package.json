@@ -12,7 +12,7 @@
     "debug": "(node-dev app.js & npm run debug:watch)"
   },
   "author": "mecab",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.0.0",
     "babel-core": "^6.26.3",
