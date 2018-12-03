@@ -11,6 +11,12 @@ Hopefully to be a good scaffold to start any OpenCV.js projects.
 
 ![screenshot](doc/screenshot.png)
 
+Live Demo
+---------
+
+**https://mecab.github.io/opencvjs-facedetect-livedemo**
+
+
 How to run
 ----------
 
@@ -32,3 +38,9 @@ $ npm start
 
 (Production purpose. Produces minified JS, however you will need to
 build the assets to reflect your edit.)
+
+Where `opencv.js`, `opencv_js.js` and `opencv_js.wasm` come from
+------------------------------------------------------------------
+These compiled js and wasm files are built from [OpenCV v3.4.2](https://docs.opencv.org/3.4.2/index.html) source through [OpenCV.js offical build instruction](https://docs.opencv.org/3.4.2/d4/da1/tutorial_js_setup.html).
+
+I pushed a [Docker image](https://hub.docker.com/r/mecab/opencv-wasm-builder/) to generate them so that you can easily build them by yourself. [Dockerfile](https://github.com/mecab/docker-opencv-wasm-builder) is also available.
